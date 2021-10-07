@@ -17,32 +17,37 @@
                Height="25" Width="150" FontSize="14"
                HorizontalContentAlignment="Stretch" 
                VerticalContentAlignment="Stretch"/>
-        <ProgressBar x:Name="pb1" Height="30" Margin="10 5 10 5"
-                     Minimum="0" Maximum="1000" Foreground="Yellow"/>
+        <ProgressBar x:Name="pb1" Tag="Horse #1 (Yellow)" 
+                     Height="30" Margin="10 5 10 5"
+                     Minimum="0" Maximum="100" Foreground="Yellow"/>
         <Label x:Name="lbl2" Content="2 Horse" HorizontalAlignment="Left"
                Height="25" Width="150" FontSize="14"
                HorizontalContentAlignment="Stretch" 
                VerticalContentAlignment="Stretch"/>
-        <ProgressBar x:Name="pb2" Height="30" Margin="10 5 10 5"
-                     Minimum="0" Maximum="1000" Foreground="Green"/>
+        <ProgressBar x:Name="pb2" Tag="Horse #2 (Green)" 
+                     Height="30" Margin="10 5 10 5"
+                     Minimum="0" Maximum="100" Foreground="Green"/>
         <Label x:Name="lbl3" Content="3 Horse" HorizontalAlignment="Left"
                Height="25" Width="150" FontSize="14"
                HorizontalContentAlignment="Stretch" 
                VerticalContentAlignment="Stretch"/>
-        <ProgressBar x:Name="pb3" Height="30" Margin="10 5 10 5"
-                     Minimum="0" Maximum="1000" Foreground="Red"/>
+        <ProgressBar x:Name="pb3" Tag="Horse #3 (Red)"
+                     Height="30" Margin="10 5 10 5"
+                     Minimum="0" Maximum="100" Foreground="Red"/>
         <Label x:Name="lbl4" Content="4 Horse" HorizontalAlignment="Left"
                Height="25" Width="150" FontSize="14"
                HorizontalContentAlignment="Stretch" 
                VerticalContentAlignment="Stretch"/>
-        <ProgressBar x:Name="pb4" Height="30" Margin="10 5 10 5"
-                     Minimum="0" Maximum="1000" Foreground="Blue"/>
+        <ProgressBar x:Name="pb4" Tag="Horse #4 (Blue)"
+                     Height="30" Margin="10 5 10 5"
+                     Minimum="0" Maximum="100" Foreground="Blue"/>
         <Label x:Name="lbl5" Content="5 Horse" HorizontalAlignment="Left"
                Height="25" Width="150" FontSize="14"
                HorizontalContentAlignment="Stretch" 
                VerticalContentAlignment="Stretch"/>
-        <ProgressBar x:Name="pb5" Height="30" Margin="10 5 10 5"
-                     Minimum="0" Maximum="1000" Foreground="Black"/>
+        <ProgressBar x:Name="pb5" Tag="Horse #5 (Black)"
+                     Height="30" Margin="10 5 10 5"
+                     Minimum="0" Maximum="100" Foreground="Black"/>
         <ListBox x:Name="listBox" Height="230" Margin="10"/>
     </StackPanel>
 </Window>
